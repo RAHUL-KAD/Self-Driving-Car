@@ -2,6 +2,10 @@
 
 Object detection is one of the most important method is self driving car. To detect an objects we use object detectors like YOLO family, Faster RCNN, Fast RCNN, Singal shot detection(SSD). In this repo I used [YOLOv5](https://github.com/ultralytics/yolov5).
 
+## Demo
+![Demo Video](/object-detection/images/demo1.gif)
+
+
 ## YOLO (You only look once)
 [Paper](https://arxiv.org/pdf/1803.01534v4.pdf)
 
