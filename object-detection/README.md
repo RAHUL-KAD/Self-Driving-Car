@@ -34,3 +34,23 @@ You can use this repo to build your own object detection model.
 3. Follow the instructions from the .ipynb file and train your model.
 4. Got an error, google it or create an issue with proper explanation and screenshots.
 5. Happy coding
+
+## Deployment
+Now that you build your own Object Detection model it's time to test it in webapp using streamlit and pytorch.
+
+**Steps:**
+
+1. Download either best.pt or last.pt pretrained weights file from your google drive or from a folder where you trained your yolo model.
+2. Uncomment *line no 13* from app.py file.
+
+        model = torch.hub.load("ultralytics/yolov5",  'custom', path=add path yo your pretrained model)
+
+3. *(Considering you are familier with Docker)* Build an Docker image and Run docker image using following command
+
+        # To build an docker image
+        docker build -t object-detection .
+
+        # To run the docker image
+        docker run -it --rm -p 8000:8000 object-detection
+    
+4. Run it any error, create a issue and specify your error briefly with screenshots.
