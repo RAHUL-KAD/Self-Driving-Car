@@ -22,4 +22,15 @@ Advantages:
 Disadvantages:
 1. Failure to detect smaller objects in an image or video because of the lower recall rate.
 
-2. Cant’t detect two objects that are extremely close to each other due to the limitations of bounding boxes. 
+2. Cant’t detect two objects that are extremely close to each other due to the limitations of bounding boxes.
+
+## How to use this repo
+You can use this repo to build your own object detection model.
+
+**Steps:**
+
+1. Download Object detection using YOLOv5.ipynb file.
+2. Upload it to google drive to use COlab and free GPU.
+3. Follow the instructions from the .ipynb file and train your model.
+4. Got an error, google it or create an issue with proper explanation and screenshots.
+5. Happy coding
