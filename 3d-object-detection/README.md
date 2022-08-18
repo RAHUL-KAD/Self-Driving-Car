@@ -1,0 +1,2 @@
+# 3D object Detection
+3D object detection is crucial task for autonomous driving. Many important fields in autonomous driving such as prediction, planning, and motion control generally require a faithful representation of the 3D space around the ego vehicle.
